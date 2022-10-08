@@ -3441,7 +3441,7 @@ Game.Launch=function()
 			Game.seed=Game.makeSeed();
 			
 			Game.cookiesReset+=Game.cookiesEarned;
-			Game.cookies=0;
+			Game.cookies=100000000000000000000000000000000000000000000098489674867394689347669376837689347683476938476984367348348690000000000000000000;
 			Game.cookiesEarned=0;
 			Game.cookieClicks=0;
 			Game.goldenClicksLocal=0;
