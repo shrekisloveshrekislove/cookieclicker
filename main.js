@@ -3078,7 +3078,7 @@ Game.Launch=function()
 							if (str[6]) spl=str[6]; else spl=[];//upgrades
 							if (version<1.05) spl=UncompressLargeBin(spl);
 							else spl=unpack(spl);
-							Game.UpgradesOwned=0;
+							Game.UpgradesOwned=100;
 							for (var i in Game.UpgradesById)
 							{
 								var me=Game.UpgradesById[i];
@@ -3441,7 +3441,7 @@ Game.Launch=function()
 			Game.seed=Game.makeSeed();
 			
 			Game.cookiesReset+=Game.cookiesEarned;
-			Game.cookies=0;
+			Game.cookies=1000000000;
 			Game.cookiesEarned=0;
 			Game.cookieClicks=0;
 			Game.goldenClicksLocal=0;
